@@ -797,7 +797,7 @@ args: {
 "Dir": 1,   			// 委单方向 买/卖, 1:BID/BUY, -1:ASK/SELL
 "OType": 1,  			// 报价类型, 1:Limit(限价委单 ), 2: Market(市价委单,匹配后转限价), 3: StopMarket (市价止损);
 "Prz": 8000,  			// 价格
-"Qty": 10000, 			// 数量(如果>0则为做多,如果<0则为做空)
+"Qty": 10000, 			// 下单数量
 "QtyDsp": 0,  			// 显示数量, 0表示不隐藏, 用于支持冰山委托
 "Tif": 0, 			// 生效时间设定, 0:GoodTillCancel, 1:ImmediateOrCancel/FillAndKill, 2:FillOrKill
 "OrdFlag": 0, 			// 标志位, 0: OF_INVALID, 1: POSTONLY, 2: REDUCEONLY, 4: CLOSEONTRIGGER;
